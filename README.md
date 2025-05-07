@@ -1,12 +1,20 @@
-# React + Vite
+# 📝 Formulario de Registro con React + React Hook Form + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un formulario de registro moderno construido con React, validación de formularios usando React Hook Form y un diseño responsive con Tailwind CSS. Ideal como base para proyectos que necesiten recolección de datos con validaciones robustas y una experiencia de usuario limpia.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** – Librería de JavaScript para construir interfaces de usuario.
+- 🎣 **React Hook Form** – Manejador de formularios optimizado para React.
+- 💨 **Tailwind CSS** – Framework CSS utilitario para diseño rápido y responsivo.
 
-## Expanding the ESLint configuration
+## 🧰 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Validación de:
+  - Nombre
+  - Email
+  - Contraseña y confirmación
+  - Aceptación de términos
+    
+- Feedback visual con errores en tiempo real
+- Uso de `Report.success` para mostrar notificaciones interactivas
